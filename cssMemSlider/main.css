@@ -22,16 +22,16 @@ input {
 }
 
 #slide_1 {
-    transform: translateY(35rem) translateX(40rem);
+    transform: translateY(40.5rem) translateX(40.5rem);
 }
 #slide_2 {
-    transform: translateY(35rem) translateX(41rem);
+    transform: translateY(38.7rem) translateX(43rem);
 }
 #slide_3 {
-    transform: translateY(35rem) translateX(42rem);
+    transform: translateY(36.9rem) translateX(45.5rem);
 }
 #slide_4 {
-    transform: translateY(35rem) translateX(43rem);
+    transform: translateY(35.1rem) translateX(47.9rem);
 }
 
 .slide {
@@ -45,25 +45,21 @@ input {
 }
 
 .slide-1 {
-    background-color: aqua;
     transform: translateX(200vw);
     transition: 1s ease;
 }
 
 .slide-2 {
-    background-color: blueviolet;
     transform: translateY(-30rem) translateX(200vw);
     transition: 1s ease;
 }
 
 .slide-3 {
-    background-color: red;
     transform: translateY(-60rem) translateX(200vw);
     transition: 1s ease;
 }
 
 .slide-4 {
-    background-color: green;
     transform: translateY(-90rem) translateX(200vw);
     transition: 1s ease;
 }
@@ -134,4 +130,60 @@ input {
 #slide_4:checked~.content-4 {
     transform: translateY(-91.6rem) translateX(0vw);
     transition: 1.1s ease;
+}
+
+.label_1 {
+    padding: 1.2rem;
+}
+
+.label_1:hover {
+    cursor: pointer;
+}
+
+.label_1-wrapper {
+    width: 1rem;
+    transform: translateY(39.6rem) translateX(40rem);
+
+}
+
+.label_2 {
+    padding: 1.2rem;
+}
+
+.label_2:hover {
+    cursor: pointer;
+}
+
+.label_2-wrapper {
+    width: 1rem;
+    transform: translateY(37.8rem) translateX(42.5rem);
+
+}
+
+.label_3 {
+    padding: 1.2rem;
+}
+
+.label_3:hover {
+    cursor: pointer;
+}
+
+.label_3-wrapper {
+    width: 1rem;
+    transform: translateY(36rem) translateX(45rem);
+
+}
+
+.label_4 {
+    padding: 1.2rem;
+}
+
+.label_4:hover {
+    cursor: pointer;
+}
+
+.label_4-wrapper {
+    width: 1rem;
+    transform: translateY(34.2rem) translateX(47.5rem);
+
 }
