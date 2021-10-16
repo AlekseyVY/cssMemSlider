@@ -292,7 +292,7 @@ label:hover .custom-radio {
     display: none;
 }
 
-@media (max-width: 85rem) {
+@media (max-width: 850px) {
     html, body {
         margin: 0; height: 100%; overflow: hidden
     }
@@ -362,18 +362,18 @@ label:hover .custom-radio {
     }
 
     #slide_1:checked~.content-1 {
-        transform: translateY(-86rem) translateX(1vw);
+        transform: translateY(-86.2rem) translateX(1vw);
     }
 
     #slide_2:checked~.content-2 {
-        transform: translateY(-86rem) translateX(1vw);
+        transform: translateY(-87.3rem) translateX(1vw);
     }
 
     #slide_3:checked~.content-3 {
-        transform: translateY(-86rem) translateX(1vw);
+        transform: translateY(-88.5rem) translateX(1vw);
     }
 
     #slide_4:checked~.content-4 {
-        transform: translateY(-86rem) translateX(1vw);
+        transform: translateY(-89.6rem) translateX(1vw);
     }
 }
