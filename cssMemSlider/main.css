@@ -1,3 +1,6 @@
+/*
+    main styles
+*/
 html body {
     width: 100vw;
     height: 100vh;
@@ -21,6 +24,10 @@ input {
     overflow: hidden;
 }
 
+
+/*
+    input group
+*/
 #slide_1 {
     transform: translateY(40.5rem) translateX(40.5rem);
 }
@@ -34,6 +41,10 @@ input {
     transform: translateY(35.1rem) translateX(47.9rem);
 }
 
+
+/*
+    meme slides
+*/
 .slide {
     width: 50rem;
     height: 30rem;
@@ -64,6 +75,9 @@ input {
     transition: 1s ease;
 }
 
+/*
+    text content for memes
+*/
 .content {
     width: 30rem;
     font-size: 1.5rem;
@@ -89,7 +103,9 @@ input {
     transform: translateY(-89.8rem) translateX(200vw);
     transition: 1.1s ease;
 }
-
+/*
+    checked behavior
+*/
 #slide_1:checked~.slide-1 {
     transform:  translateX(-0vw);
     transition: 1s ease;
@@ -132,6 +148,9 @@ input {
     transition: 1.1s ease;
 }
 
+/*
+    label group
+*/
 .label_1 {
     padding: 15px 30px 15px 15px;
     display: block;
@@ -233,7 +252,9 @@ input {
     display: none;
 }
 
-
+/*
+    custom styles for radio buttons
+*/
 input {
     opacity: 0;
     width: 0;
@@ -292,6 +313,9 @@ label:hover .custom-radio {
     display: none;
 }
 
+/*
+    media query for mobile version 425x*000
+*/
 @media (max-width: 850px) {
     html, body {
         margin: 0; height: 100%; overflow: hidden
