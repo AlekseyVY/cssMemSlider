@@ -114,7 +114,6 @@ input {
     overflow: hidden;
 }
 
-
 /*
     input group
 */
@@ -130,7 +129,6 @@ input {
 #slide_4 {
     transform: translateY(35.1rem) translateX(47.9rem);
 }
-
 
 /*
     meme slides
@@ -206,7 +204,6 @@ input {
     transition: 1.1s ease;
 }
 
-
 #slide_2:checked~.slide-2 {
     transform: translateY(-30rem) translateX(0vw);
     transition: 1s ease;
@@ -216,7 +213,6 @@ input {
     transform: translateY(-86.6rem) translateX(0vw);
     transition: 1.1s ease;
 }
-
 
 #slide_3:checked~.slide-3 {
     transform: translateY(-60rem) translateX(0vw);
@@ -377,8 +373,6 @@ label:hover .custom-radio {
     display: none;
 }
 
-
-
 #slide_2:checked~.label_2-wrapper-checked {
     display: block;
 }
@@ -402,4 +396,3 @@ label:hover .custom-radio {
 #slide_4:checked~.label_4-wrapper {
     display: none;
 }
-
