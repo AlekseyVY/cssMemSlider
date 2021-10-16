@@ -1,0 +1,121 @@
+html body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 62.5%;
+    overflow: hidden;
+    padding-top: 10rem;
+}
+
+.container {
+    margin: auto;
+    max-width: 50rem;
+    width: 100%;
+    height: 100rem;
+    overflow: hidden;
+}
+
+#slide_1 {
+    transform: translateY(35rem) translateX(40rem);
+}
+#slide_2 {
+    transform: translateY(35rem) translateX(41rem);
+}
+#slide_3 {
+    transform: translateY(35rem) translateX(42rem);
+}
+#slide_4 {
+    transform: translateY(35rem) translateX(43rem);
+}
+
+.slide {
+    width: 50rem;
+    height: 30rem;
+    margin: auto;
+}
+
+.slide-1 {
+    background-color: aqua;
+    transform: translateX(200vw);
+}
+
+.slide-2 {
+    background-color: blueviolet;
+    transform: translateY(-30rem) translateX(200vw);
+}
+
+.slide-3 {
+    background-color: red;
+    transform: translateY(-60rem) translateX(200vw);
+}
+
+.slide-4 {
+    background-color: green;
+    transform: translateY(-90rem) translateX(200vw);
+}
+
+.content {
+    width: 30rem;
+    font-size: 2rem;
+}
+
+.content-1 {
+    transform: translateY(-85rem) translateX(200vw);
+}
+
+.content-2 {
+    transform: translateY(-85rem) translateX(200vw);
+}
+
+.content-3 {
+    transform: translateY(-85rem) translateX(200vw);
+}
+
+.content-4 {
+    transform: translateY(-85rem) translateX(200vw);
+}
+
+
+#slide_1:checked~.slide-1 {
+    transform:  translateX(-0vw);
+    transition: 1s ease;
+}
+
+#slide_1:checked~.content-1 {
+    transform: translateY(-85rem) translateX(0vw);
+    transition: 1.1s ease;
+}
+
+
+#slide_2:checked~.slide-2 {
+    transform: translateY(-30rem) translateX(0vw);
+    transition: 1s ease;
+}
+
+#slide_2:checked~.content-2 {
+    transform: translateY(-85rem) translateX(0vw);
+    transition: 1.1s ease;
+}
+
+
+#slide_3:checked~.slide-3 {
+    transform: translateY(-60rem) translateX(0vw);
+    transition: 1s ease;
+}
+
+#slide_3:checked~.content-3 {
+    transform: translateY(-85rem) translateX(0vw);
+    transition: 1.1s ease;
+}
+
+#slide_4:checked~.slide-4 {
+    transform: translateY(-90rem) translateX(0vw);
+    transition: 1s ease;
+}
+
+#slide_4:checked~.content-4 {
+    transform: translateY(-85rem) translateX(0vw);
+    transition: 1.1s ease;
+}
