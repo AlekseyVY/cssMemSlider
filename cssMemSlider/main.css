@@ -21,6 +21,10 @@ input {
     overflow: hidden;
 }
 
+.custom-radio:focus {
+    background-color: red;
+}
+
 #slide_1 {
     transform: translateY(40.5rem) translateX(40.5rem);
 }
@@ -265,8 +269,6 @@ label:hover .custom-radio {
 #slide_1:checked~.label_1-wrapper {
     display: none;
 }
-
-
 
 #slide_2:checked~.label_2-wrapper-checked {
     display: block;
